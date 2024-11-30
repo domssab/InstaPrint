@@ -299,6 +299,21 @@ main {
   color: #888;
 }
 
+.custom-file-label {
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.custom-file-label:hover {
+  transform: scale(1.05);
+}
+
+#fileInput {
+  display: none; /* Hides the default file input */
+}
+
+
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
   .drag-area {
