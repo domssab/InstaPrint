@@ -24,10 +24,13 @@
         <label for="fileInput" class="custom-file-label">
             <img src="./../static/images/file-upload.png" alt="Upload" />
         </label>
-        <input type="file" id="fileInput" accept=".jpg,.jpeg,.png,.pdf,.doc,.docx" multiple hidden />
-      </div>    
+        <input type="file" id="fileInput" accept=".jpg,.jpeg,.png,.pdf,.doc,.docx" multiple hidden/>
+        <input type="text" id="fileName" placeholder="Selected file" readonly>
+      </div>
+      
+      <div id="previewContainer"></div>
     </main>
 
-    <script src="main.js"></script>
+    <script src="./../static/js/main.js"></script>
   </body>
 </html>

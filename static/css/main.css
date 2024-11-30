@@ -300,19 +300,24 @@ main {
 }
 
 .custom-file-label {
-  cursor: pointer;
-  display: inline-block;
-  transition: transform 0.2s ease;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.2s ease;
 }
 
 .custom-file-label:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 #fileInput {
-  display: none; /* Hides the default file input */
+    display: none; /* Hides the default file input */
 }
 
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+}
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 768px) {
